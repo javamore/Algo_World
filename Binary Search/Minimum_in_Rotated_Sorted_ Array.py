@@ -1,3 +1,11 @@
+""" 
+problem:Suppose a sorted array is rotated at some pivot unknown to you beforehand.
+
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+
+Find the minimum element. 
+
+"""
 
 class Solution:
     """
@@ -18,3 +26,7 @@ class Solution:
             else:
                 start = mid
         return min(nums[start],nums[end]) ##return the min of nums[start], nums[end]
+
+if __name__ == '__main__':
+    nums = [7,8,9,5,6]
+    print(Solution().findMin(nums))
