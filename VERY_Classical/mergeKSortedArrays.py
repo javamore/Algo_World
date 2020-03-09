@@ -34,6 +34,7 @@ class Solution:
         
         return res 
 #fastest version time: O(NlogK), space:O(k)
+
 #--------------------------------------------------------------------------------------------------------------------
 #top-down, divide and conquer
     def mergekKSortedArrays2(self, arrays):
@@ -67,6 +68,7 @@ class Solution:
         return array
 
 #---------------------------------------------------------------------------------------------------------------------------------
+
 #bottom-up two-two merge 
     def mergeKSortedArrays3(self, arrays):
         while len(arrays) > 1:
