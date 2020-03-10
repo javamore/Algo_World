@@ -24,4 +24,4 @@ Notes about algo.
 |    77    |          | [Logest Common Sequence](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/Longest%20Common%20Subsequence.py) |    Medium    |
 |  Others  |          | [XYZ Problem](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/xyz.py) | Maybe Medium |
 |   486    |          | [mergeKSortedArrays](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/mergeKSortedArrays.py) |    Medium    |
-|          |          |                                                              |              |
+|  Others  |          | [TopK_series](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/TopK_series.py) |    Medium    |
