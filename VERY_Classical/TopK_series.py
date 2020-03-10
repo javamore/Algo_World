@@ -14,8 +14,6 @@ b) the output list should be sorted
 Q: What is your complexity? Write down the detailed analysis in report.txt.
 A: For each element we push into heap, using O(log(k)). Total time T(n)= O(k+(n-k)logk*2+klogk)=O(2nlogk-klogk+k) = O(nlogk)
 
-Filename: datastream.py
-
 [UPDATE] The built-in function heapq.nsmallest() is _not_ allowed for this problem.
     The whole point is to implement it yourself. :)
 
@@ -38,6 +36,17 @@ def ksmallest(k,a):
     #return sorted ([-x for x in h])
     return [-x for x in heapq.nlargest(k, h)]
 #------------------------------------------------------------------------------------------
+"""
+Find top k largest number(s) in an array.
+Example:
+Input: [3, 10, 1000, -99, 4, 100] and k = 3
+Output: [1000, 100, 10]
+
+offline method: quick_select -> O(n) select kth largest number
+                filter >= kth largest number -> top k largest number set O(n)
+                sort -> O(klogk)
+                total time: O(n + klogk) 
+"""
 def klargest(k,a):
     if k == 0 or len(a) == 0:
         return []
@@ -53,7 +62,7 @@ def klargest(k,a):
     #return sorted ([x for x in h])
     return [x for x in heapq.nlargest(k, h)]
 #------------------------------------------------------------------------------------------
-def funnyklargest(k,a):
+def heapklargest(k,a):
     heapq.heapify(a)
     topk = heapq.nlargest(k, a)
     topk.sort()
@@ -69,7 +78,7 @@ class Solution:
     @param k: An integer
     @return: the top k largest numbers in array
     """
-    def topk(self, nums, k):
+    def qselect_klargest(self, nums, k):
         # write your code here
         self.quick_select(nums, 0, len(nums) - 1, k)
         res = nums[:k]
@@ -100,12 +109,12 @@ class Solution:
 
 if __name__ == "__main__":
     print(ksmallest(4, [10, 2, 9, 3, 7, 8, 11, 5, 7]))
-    print(ksmallest(12, range(1000000, 0, -2)))
+    print(ksmallest(12, range(1000000, 0, -1)))
 
     print(klargest(4, [10, 2, 9, 3, 7, 8, 11, 5, 7]))
-    print(klargest(12, range(1000000, 0, -2)))
-    print(funnyklargest(4, [10, 2, 9, 3, 7, 8, 11, 5, 7]))
-    print(Solution().topk([10, 2, 9, 3, 7, 8, 11, 5, 7], 4))
+    print(klargest(12, range(1000000, 0, -1)))
+    print(heapklargest(4, [10, 2, 9, 3, 7, 8, 11, 5, 7]))
+    print(Solution().qselect_klargest([10, 2, 9, 3, 7, 8, 11, 5, 7], 4))
 
         
       
