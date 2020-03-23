@@ -5,7 +5,7 @@ Notes about algo.
 
 
 
-| LINTCODE | Category   | PROBLEMS                                                     |  DIFFICULTY  |
+| LINTCODE | HINT                                                         | PROBLEMS                                                     |  DIFFICULTY  |
 | :------: | ---------- | :----------------------------------------------------------- | :----------: |
 |   159    |            | [Find Minimum in Rotated Sorted Array](https://github.com/javamore/Algo_World/blob/master/Binary%20Search/Find_Minimum_in_Rotated_Sorted_%20Array.py) |    Medium    |
 |    75    |            | [Find Peak](https://github.com/javamore/Algo_World/blob/master/Binary%20Search/Find_Peak.py) |    Medium    |
@@ -24,6 +24,6 @@ Notes about algo.
 |    77    |            | [Logest Common Sequence](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/Longest%20Common%20Subsequence.py) |    Medium    |
 |  Others  |            | [XYZ Problem](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/xyz.py) | Maybe Medium |
 |   486    |            | [mergeKSortedArrays](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/mergeKSortedArrays.py) |    Medium    |
-|   460    | Two Pointer | [Find K Closest Elements](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers/Find%20K%20Closest%20Elements.py) |    Medium    |
+|   460    | [Two Pointers](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers) | [Find K Closest Elements](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers/Find%20K%20Closest%20Elements.py) |    Medium    |
 |  Others  |            | [TopK_series](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/TopK_series.py) |    Medium    |
 
