@@ -33,11 +33,13 @@ class Solution:
         result = [sums]
         left, right = 0, k 
         while right < len(nums):
+            #pop left and append right then move forward.
             sums = sums - nums[left] + nums[right]
             left += 1 
             right += 1 
             result.append(sums)
         return result 
+        
 if __name__ == "__main__":
     nums = [1,2,3,4,5,6]
     k = 3
