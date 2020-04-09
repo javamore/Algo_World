@@ -26,6 +26,7 @@ Notes about algo.
 |   460    | [Two Pointers](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers) | [Find K Closest Elements](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers/Find%20K%20Closest%20Elements.py) |   Medium   |
 |   604    | [Two Pointers](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers) | [Window Sum](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers/Window%20Sum.py) |    Easy    |
 |   004    | [Hash, Heap](https://github.com/javamore/Algo_World/tree/master/Hash%26Heap) | [Ugly Number](https://github.com/javamore/Algo_World/blob/master/Hash%26Heap/Ugly%20Number.py) |   Medium   |
+|   107    | [DP](https://github.com/javamore/Algo_World/tree/master/DP)  | [Word Break1](https://github.com/javamore/Algo_World/blob/master/DP/WordBreak1.py) |   Medium   |
 |  Others  |                                                              | [TopK_series](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/TopK_series.py) |   Medium   |
 |  Others  |                                                              | [XYZ Problem](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/xyz.py) |   Medium   |
 

@@ -1,13 +1,16 @@
 """
-lintcode 4: Ugly Number
+lintcode 107: WordBreak1
 
-Ugly number is a number that only have prime factors 2, 3 and 5.
-Design an algorithm to find the nth ugly number. The first 10 ugly numbers are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12...
-Note that 1 is typically treated as an ugly number.
+Given a string s and a dictionary of words dict,
+determine if s can be broken into a space-separated sequence of one or more dictionary words.
 
 Example 1:
-Input: 9
-Output: 10
+	Input:  "lintcode", ["lint", "code"]
+	Output:  true
+
+Example 2:
+	Input: "a", ["a"]
+	Output:  true
 """
 
 import heapq 
