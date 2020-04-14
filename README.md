@@ -27,7 +27,7 @@ Notes about algo.
 |   604    | [Two Pointers](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers) | [Window Sum](https://github.com/javamore/Algo_World/blob/master/Two%20Pointers/Window%20Sum.py) |    Easy    |
 |   004    | [Hash, Heap](https://github.com/javamore/Algo_World/tree/master/Hash%26Heap) | [Ugly Number](https://github.com/javamore/Algo_World/blob/master/Hash%26Heap/Ugly%20Number.py) |   Medium   |
 |   107    | [DP](https://github.com/javamore/Algo_World/tree/master/DP)  | [Word Break1](https://github.com/javamore/Algo_World/blob/master/DP/WordBreak1.py) |   Medium   |
-|   114    | [DP](https://github.com/javamore/Algo_World/tree/master/DP)  | [Unique Paths Series](https://github.com/javamore/Algo_World/blob/master/DP/Unique%20Paths%Series.py) |    Easy    |
+|   114    | [DP](https://github.com/javamore/Algo_World/tree/master/DP)  | [Unique Paths Series](https://github.com/javamore/Algo_World/blob/master/DP/Unique%20Paths%20Series.py) |    Easy    |
 |  Others  | [Classical](https://github.com/javamore/Algo_World/tree/master/VERY_Classical) | [TopK_series](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/TopK_series.py) |   Medium   |
 |  Others  | [Classical](https://github.com/javamore/Algo_World/tree/master/VERY_Classical) | [XYZ Problem](https://github.com/javamore/Algo_World/blob/master/VERY_Classical/xyz.py) |   Medium   |
 
